@@ -10,7 +10,7 @@ import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-class Solution {
+class Solution1 {
 
   /*
    * Complete the 'superReducedString' function below.
@@ -94,7 +94,7 @@ public class SuperReducedString {
 
     String s = bufferedReader.readLine();
 
-    String result = Solution.superReducedString(s);
+    String result = Solution1.superReducedString(s);
 
     bufferedWriter.write(result);
     bufferedWriter.newLine();

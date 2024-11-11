@@ -1,0 +1,1 @@
+export OUTPUT_PATH=/Users/quandoan/Documents/m2_java_projects/hackerrank/output.txt

@@ -11,7 +11,7 @@ import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 import static java.util.AbstractMap.SimpleEntry;
 
-class Result {
+class Result2 {
     static int diffCount;
     static List<Integer> sortedArr;
 
@@ -99,7 +99,7 @@ public class AlmostSorted {
                 .map(Integer::parseInt)
                 .collect(toList());
 
-        Result.almostSorted(arr);
+        Result2.almostSorted(arr);
 
         bufferedReader.close();
     }
